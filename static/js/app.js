@@ -127,7 +127,6 @@ function getComputerChoice() {
 const gameResult = (message) => {
     let resultTitle = document.querySelector('.resultTitle');
     resultTitle.textContent = message;
-    sessionStorage.clear();
     nextRoundButton.style.display = 'none';
 };
 
