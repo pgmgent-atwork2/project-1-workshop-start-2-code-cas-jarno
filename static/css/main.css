@@ -160,14 +160,8 @@ body {
     gap: 2.5rem;
 }
 
-.resultTitle {
-    margin: 0;
-    padding: 0;
-    color: hsl(0, 0%, 0%);
-    text-align: center;
-    font-size: 6rem;
-    letter-spacing: -0.3rem;
-}
+
+
 
 .resultButtons {
     width: 100%;

@@ -1,0 +1,145 @@
+/* Algemene opmaak */
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira\ Sans\ Light.woff2') format('woff2'),
+        url('../fonts/Fira\ Sans\ Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira\ Sans\ Regular.woff2') format('woff2'),
+        url('../fonts/Fira\ Sans\ Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira\ Sans\ Medium.woff2') format('woff2'),
+        url('../fonts/Fira\ Sans\ Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira\ Sans\ SemiBold.woff2') format('woff2'),
+        url('../fonts/Fira\ Sans\ SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira\ Sans\ Bold.woff2') format('woff2'),
+        url('../fonts/Fira\ Sans\ Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira\ Sans\ ExtraBold.woff2') format('woff2'),
+        url('../fonts/Fira\ Sans\ ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira\ Sans\ Black.woff2') format('woff2'),
+        url('../fonts/Fira\ Sans\ Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+body {
+    background-color: #7BC9FF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Fira Sans';
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+/* Hoofdtitel */
+h1 {
+    margin: 0;
+}
+
+/* Hoofdinhoud */
+.main {
+    padding: 1.25rem 0;
+}
+
+.content-block {
+    margin-bottom: 1.25rem;
+}
+
+/* Workshopinhoud */
+.workshop-wrapper {
+    background-color: #f4f4f4;
+    padding: 1.25rem;
+}
+
+/* Artikelinhoud */
+article {
+    background-color: #fff;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+/* Afbeeldingen */
+.image {
+    max-width: 100%;
+    height: auto;
+   
+    margin: 0 auto;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lijstitems */
+li {
+    margin-bottom: 0.625rem;
+}
+
+

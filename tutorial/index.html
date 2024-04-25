@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/main.css">
+    
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <header>
@@ -32,7 +32,7 @@
                 <p>Geen paniek we maken het leuk en houden het simpel in code.</p>
                 <div class="content-block">
                     <div class="container">
-                        <article id step-1>
+                        <article id='step-1'>
                             <h2> STAP-1 mappen en bestanden</h2>
                             <div class="html-uitleg">
                                 We hebben voor deze game te maken een code editor nodig. Hiervoor maken de ge gebruik van
@@ -46,7 +46,7 @@
                                 
                                 <br>
 
-                                <img class="image" src="../img/Scherm­afbeelding-mapAanmaken.png" alt="map aamaken">
+                                <img class="image" src="../static/img/Scherm­afbeelding-mapAanmaken.png" alt="map aamaken">
 
                               </li>
                             <li>
@@ -56,14 +56,62 @@
                                 <a target="_blank" href="https://code.visualstudio.com/">visualstudio</a>
                                 en open de folder die je net hebt aangemaakt. 
 
-                                <img class="image" src="../img/Scherm­afbeelding-open-map.png" alt="Open map">
+                                <img class="image" src="../static/img/Scherm­afbeelding-open-map.png" alt="Open map">
                             </li>
                             <li>
                                 <strong> 1.3</strong>
                                 maak vogende mappen en bestanden aan.
                                 
-                                <img src="../img/Scherm­afbeelding mappen.png" alt="mappen">
+                                <img src="../static/img/Scherm­afbeelding mappen.png" alt="mappen">
 
+                        </article>
+                        <article id="step-2">
+                            <h2 class="h3">STAP 2 - HTML &amp; CSS</h2>
+                            <div class="htmluitleg">
+                                Tijd om te coderen, zodat we meer te zien krijgen dan een witte webpagina!
+                            </div>
+                            <ul>
+                                <li style="margin-bottom: 1rem;">
+                                    <strong>2.1</strong> Kopieer onderstaande code in jouw
+                                    <code>index.html</code>-bestand. Bewaar vervolgens dat bestand.<br>
+                                    <script async src="//jsfiddle.net/fredroeg/c1uLx8bv/19/embed/html/dark/"></script>
+                                    Dit is een basis-structuur waarin we verder werken.
+                                </li>
+
+                                <li style="margin-bottom: 1rem;">
+                                    <strong>2.2</strong> Kopieer onderstaande code in jouw
+                                    <code>main.css</code>-bestand. Bewaar vervolgens dat bestand.<br>
+                                    <script async src="//jsfiddle.net/fredroeg/c1uLx8bv/17/embed/css/dark"></script>
+                                    Dit bevat alvast een aantal basisstijlen die we later zullen nodig hebben voor de
+                                    look &amp; feel van onze app.
+                                </li>
+
+                                <li style="margin-bottom: 1rem;">
+                                    <strong>2.3</strong> Bekijk het resultaat in de browser (de url is
+                                    hoogstwaarschijnlijk: <a
+                                        href="http://127.0.0.1:5500/">http://127.0.0.1:5500/</a>).<br>
+                                    Als alles goed is, ziet het er nu zo uit. Een volledig gekleurd vlak.<br>
+                                    <script async src="//jsfiddle.net/fredroeg/c1uLx8bv/4/embed/result/dark"></script>
+                                </li>
+
+                                <li style="margin-bottom: 1rem;">
+                                    <strong>2.4</strong> Laten we het eens van kleur veranderen. Hiervoor moeten we de
+                                    kleurwaarde veranderen.
+                                    Zoek naar <code> background-color: #07192f;</code> en verander <code>#07192f;</code>
+                                    naar bijvoorbeeld <code>tomato;</code>
+                                    De achtergrond is nu tomaatkleurig.<br>
+                                </li>
+                                <li style="margin-bottom: 1rem;">
+                                    <strong>2.5</strong> We hebben nu wat inhoud nodig voor onze webpagina.<br>
+                                    Voeg onderstaande twee elementen toe, en plaats ze tussen de openings <code>&lt;body
+                                        id="background"&gt;</code>-tag en sluitings <code>&lt;/body&gt;</code>-tag
+                                    <br><code class="block">
+                                        &lt;nav id="themenav"&gt;&lt;/nav&gt;<br>
+                                        &lt;div id="soundboard"&gt;&lt;/div&gt;
+                                    </code><br>
+                                    Alles is nu in gereedheid om het soundboard te initialiseren!
+                                </li>
+                            </ul>
                         </article>
                     </div>
                 </div>
