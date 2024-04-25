@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./static/css/main.css">
+</head>
+
+<body>
+    <div class="scores">
+        <div>
+            <h2 id="computerScore" class="score">0</h2>
+            <p class="scoreName">AI</p>
+        </div>
+        <div>
+            <h2 id="playerScore" class="score">0</h2>
+            <p class="scoreName">YOU</p>
+        </div>
+    </div>
+
+    <div class="Btns" id="Btns">
+        <div class="Btn">
+            <img data-hand="rock" src="./static/img/hand-back-fist-regular.svg" alt="button choice rock" />
+        </div>
+        <div class="Btn">
+            <img data-hand="paper" src="./static/img/toilet-paper-solid.svg" alt="button choice paper" />
+        </div>
+        <div class="Btn">
+            <img data-hand="scissors" src="./static/img/scissors-solid.svg" alt="button choice scissors" />
+        </div>
+    </div>
+
+    <div class="computerHand">
+        <img id="computerHand" src="./static/img/ai-arm.png" alt="" />
+    </div>
+    <div class="playerHand">
+        <img id="playerHand" src="./static/img/human-arm.png" alt="" />
+    </div>
+
+    <div class="resultBox">
+        <h2 class="resultTitle">IT'S A DRAW</h2>
+        <div class="resultButtons">
+            <div>
+                <button id="nextRoundButton" class="resultButton">Next round</button>
+            </div>
+            <div>
+                <button id="restartButton" class="resultButton">Reset Score</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./static/js/app.js"></script>
+</body>
+
 </html>
